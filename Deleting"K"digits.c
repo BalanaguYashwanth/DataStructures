@@ -55,7 +55,7 @@ void all()
 
 int main()
 {
-    int n,a,sum=0,t;
+    int n,a,sum=0,t,q;
     scanf("%d",&n);
 
     while(n>0)
@@ -67,8 +67,11 @@ int main()
 
     }
     scanf("%d",&t);
-    pop(t);
-    all();
+    for(q=1;q<=t;q++)
+    {
+    pop(q);
+    }
+     all();
 }
 
 
